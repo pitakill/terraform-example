@@ -2,6 +2,10 @@ variable "aws_region" {
   default = "us-east-1"
 }
 
+variable "aws_profile" {
+  default = "dou"
+}
+
 variable "private_key_path" {
   default = "~/.ssh/id_rsa"
 }
@@ -13,3 +17,4 @@ variable "public_key_path" {
 variable "deployer_key_name" {
   default = "pitakill's key"
 }
+
